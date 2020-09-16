@@ -1,0 +1,53 @@
+passwd : for changing the password 
+
+whoami : to know the user ( requiires sudo ) 
+
+man [comamnd name] : to get info from manual pages 
+
+man -k [keyword] : to search with key word 
+
+man -k '^[keyword]$' :search with regular expression 
+
+apropos [keyword] : description based search 
+
+
+
+================================
+Listing files and moving around 
+================================
+
+ls -a -1 : for listing files in the directory 
+
+-a : show hidden one
+
+-1 :show one file in one line
+===============================
+pwd : print working directory 
+
+cd :change directory 
+    usage : cd /folder/subfolder/
+            cd ~ : back to home 
+            cd : back to home 
+            cd .. : back to one folder up in the tree
+            
+mkdir : make directory 
+
+mkdir -p test/{recon,exploit,report} : make a directory and also sub directory 
+
+
+
+==========================
+Finding files 
+==========================
+which : gives path
+        usage : which [command ]
+locate : works on updatedb 
+        usage :sudo updatedb
+               locate rockyou.* : locate [file name ]
+find : also can use -e option for execution 
+      usage : sudo find [dir]  -name sbd* 
+
+
+      
+              
+          
