@@ -46,6 +46,19 @@ locate : works on updatedb
                locate rockyou.* : locate [file name ]
 find : also can use -e option for execution 
       usage : sudo find [dir]  -name sbd* 
+      
+=============================
+Managing services 
+==========================
+service start/stop/restart/enable [service name] : this can do all these work 
+
+sudo systemctl start/enable [service name ] :To run specific service or to enable from boot time 
+
+sudo ss -antlp |grep sshd  : to know the service running or not \
+sudo netstat -antlp |grep [service name ] : similar to ss 
+
+systemctl list-unit-files : to list all services in init scripts 
+
 
 
       
