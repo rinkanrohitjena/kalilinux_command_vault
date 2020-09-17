@@ -1,0 +1,41 @@
+
+  388  iw list
+  389  sudo iw list
+  390  dmesg |r8187
+  391  sudo dmesg |r8187
+  392  sudo dmesg |grep r8187
+  393  sudo dmesg |grep rtl8187
+  394  sudo dmesg |grep rtl
+  395  sudo dmesg |grep wlan0
+  396  sudo dmesg 
+  397  rmmod rtl8187
+  398  sudo rmmod rtl8187
+  399  iwlist wlan0 scanning |grep ESSID
+  400  sudo iwlist wlan0 scanning |grep ESSID
+  401  sudo iwconfig wlan0 mode monitor channel 3
+  402  sudo ifconfig waln0 down
+  403  sudo ifconfig wlan0 down
+  404  sudo iwconfig wlan0 mode monitor channel 3
+  405  sudo ifconfig wlan0 up
+  406  sudo iwconfig
+  407  sudo tcpdump -i wlan0 -s 65000 -p
+  408  sudo iwconfig mode managed 
+  409  sudo ifconfig wlan0 down
+  410  sudo iwconfig wlan0 mode managed 
+  411  sudo ifconfig 
+  412  sudo iwconfig
+  413  sudo airmon-ng 
+  414  sudo airmon-ng start wlan0
+  415  sudo airmon-ng check kill
+  416  sudo airmon-ng start wlan0
+  417  sudo iwconfig
+  418  sudo airmon-ng stop wlan0mon
+  419  sudo iwconfig 
+  420  sudo airmon-ng check
+  421  sudo airmon-ng start wlan0
+  422  sudo airodump-ng wlan0mon 
+  423  sudo airmon-ng stop wlan0mon
+  424  sudo airmon-ng start wlan0 4
+  425  sudo airodump-ng 
+  426  sudo airodump-ng wlan0mon
+  427  sudo airodump-ng -c 4 wlan0mon
