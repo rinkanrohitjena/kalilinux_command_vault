@@ -1,0 +1,9 @@
+ sudo apt-get -y install bluetooth bluez bluez-tools rfkill
+ show
+ default-agent 
+ power on 
+ scan on
+  pair 00:1B:66:C7:17:0C
+  trust 00:1B:66:C7:17:0C
+  paired-devices 
+  connect 00:1B:66:C7:17:0C
